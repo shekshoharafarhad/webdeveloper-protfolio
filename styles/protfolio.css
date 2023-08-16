@@ -20,6 +20,7 @@
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-top: 40px;
     
 
  }
@@ -29,6 +30,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;  
+    margin: 30px 150px;
  }
  /* nav related style */
  nav{
@@ -90,8 +92,63 @@
  /* main section */
  /* About section */
  .about{
-    padding: 130px;
-    background: #FFF8F3;
+     
     border-radius:10px ;
-    margin: 0 ,130px;
+    margin: 40px 130px;
+    padding: 130px;
+    height: 550px;
+    flex-shrink: 0;
+    background-color: #FFF8F3
  }
+ main{
+   /* margin-top: 30px; */
+   max-width: 100;
+   margin: 0 auto;
+   /*  */
+
+ }
+ main section{
+   margin-top: 130px;
+ }
+ .about-info-container{
+   display: flex;
+    justify-content: space-around;
+    
+ }
+ .about-info{
+   text-align: center;
+ }
+ #what-i-do{
+   padding: 30px 150px;
+ }
+ /* skill related style */
+ .skills-container{
+   display: flex;
+   gap: 10px;
+ }
+ .skill{
+  padding: 30px;
+  border-radius: 5px;
+   background: #FFF;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ }
+ .skill-description{
+   color:   #757575;
+ }
+ /* resume */
+ .resume-collumn-title{
+   color:  #474747;
+   font-size: 30px;
+   font-weight: 700;
+   }
+   .resume-container{
+      display: flex;
+      gap: 50px;
+      
+   }
+   .farhad{
+      margin: 40px 130px;
+   }
+   .resume-title-institute,.resume-item-description{
+      color: #757575;
+   }
