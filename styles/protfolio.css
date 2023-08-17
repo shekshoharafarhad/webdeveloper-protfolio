@@ -144,6 +144,7 @@
    .resume-container{
       display: flex;
       gap: 50px;
+      margin: 30px;
       
    }
    .farhad{
@@ -152,3 +153,54 @@
    .resume-title-institute,.resume-item-description{
       color: #757575;
    }
+   .downlode-cv{
+      text-align: center;
+      color:#FFF;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 50px;
+   }
+  .sore{
+   padding-left: 20px;
+  }
+   footer{
+      display: flex;
+      background-color: #FFF8F3;
+      padding:100px 100px ;
+      margin-top: 100px;
+      gap: 100px;
+   }
+   .collumn-description{
+      color:  #474747;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px; 
+   }
+   .cullumn-title{
+          color:  #181818;
+         /* text-align: center; */
+         font-size: 35px;
+         font-weight: 700;
+      }
+      .fotter-collumn{
+         width: 50%;
+      }
+      .contact input,textarea{
+         display: flex;
+          margin-bottom: 25px;
+          padding: 18px 35px;
+          color: Dark 03;
+          border-radius: 5px;
+         border: 0;
+      }
+     .btn{
+      border-radius: 5px;
+      background: #FD6E0A;
+      color:FFF;
+     }
+     .socaol-links a{
+      margin: 15px;
+
+     }
+                   
